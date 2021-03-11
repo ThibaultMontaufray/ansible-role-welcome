@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Thibault MONTAUFRAY
+  description: Add a welcome page to hosts
+  company: servOdroid
+
+  license: MIT
+
+  min_ansible_version: 2.2
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+
+  galaxy_tags:
+    - unix
+    - welcome
+    - motd
+
+  dependencies: []

@@ -1,0 +1,10 @@
+---
+
+- name: "Deploy welcome screen"
+  copy:
+    src: "{{ role_path }}/files/motd"
+    dest: /etc/motd
+  become: yes
+  become_method: "sudo"
+
+...
